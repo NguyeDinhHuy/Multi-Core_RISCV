@@ -1,0 +1,63 @@
+module dual_core (
+    input clk,
+    input resetn,
+    output trap_0, // 
+    output trap_1  // 
+);
+    // Tin hieu ket noi noi bo cho Core 0
+    wire v0, r0;
+    wire [31:0] a0, d0, q0;
+    wire [3:0] w0;
+
+    // Tin hieu ket noi noi bo cho Core 1
+    wire v1, r1;
+    wire [31:0] a1, d1, q1;
+    wire [3:0] w1;
+
+    // Tin hieu dau ra cua Arbiter dan vao RAM
+    wire s_v, s_r;
+    wire [31:0] s_a, s_d, s_q;
+    wire [3:0] s_w;
+
+    // Khoi tao Core 0: Bat dau tai dia chi 0x0000_0000 
+    picorv32 #(
+        .PROGADDR_RESET(32'h0000_0000), // 
+        .ENABLE_MUL(1),                  // [cite: 5, 12]
+        .ENABLE_DIV(1)                   // [cite: 5, 12]
+    ) core_0 (
+        .clk(clk), .resetn(resetn), .trap(trap_0),
+        .mem_valid(v0), .mem_ready(r0), .mem_addr(a0), 
+        .mem_wdata(d0), .mem_wstrb(w0), .mem_rdata(s_q) // 
+    );
+
+    // Khoi tao Core 1: Bat dau tai dia chi 0x0000_1000 
+    picorv32 #(
+        .PROGADDR_RESET(32'h0000_1000), // 
+        .ENABLE_MUL(1), .ENABLE_DIV(1)
+    ) core_1 (
+        .clk(clk), .resetn(resetn), .trap(trap_1),
+        .mem_valid(v1), .mem_ready(r1), .mem_addr(a1), 
+        .mem_wdata(d1), .mem_wstrb(w1), .mem_rdata(s_q) // 
+    );
+
+    // Khoi tao Arbiter de quan ly tranh chap bus
+    picorv32_arbiter arbiter_inst (
+        .clk(clk), .resetn(resetn),
+        .m0_valid(v0), .m0_addr(a0), .m0_wdata(d0), .m0_wstrb(w0), .m0_ready(r0),
+        .m1_valid(v1), .m1_addr(a1), .m1_wdata(d1), .m1_wstrb(w1), .m1_ready(r1),
+        .s_valid(s_v), .s_addr(s_a), .s_wdata(s_d), .s_wstrb(s_w), .s_ready(s_r)
+    );
+
+    // Khoi tao RAM don cong dung chung
+    single_port_ram #(
+        .INIT_FILE("program.hex")
+    ) ram_inst (
+        .clk(clk), 
+        .addr(s_a[13:2]), // Chuyen dia chi byte sang dia chi tu (word)
+        .din(s_d), 
+        .we(s_w & {4{s_v}}), 
+        .dout(s_q), 
+        .ready(s_r)
+    );
+
+endmodule

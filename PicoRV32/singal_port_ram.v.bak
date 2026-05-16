@@ -1,0 +1,35 @@
+module single_port_ram #(
+    parameter ADDR_WIDTH = 12, // Do rong dia chi: 4096 tu (16KB)
+    parameter INIT_FILE = "program.v"   // File hex de nap chuong trinh
+)(
+    input clk,
+    // Giao tiep duy nhat cho Master nao duoc phep truy cap
+    input [ADDR_WIDTH-1:0] addr,
+    input [31:0]           din,
+    input [3:0]            we,
+    output reg [31:0]      dout,
+    output                 ready
+);
+    // Khai bao mang RAM 32-bit
+    reg [31:0] ram [0:(2**ADDR_WIDTH)-1];
+
+    // Khoi tao RAM tu file hex
+    initial begin
+        if (INIT_FILE != "") $readmemh(INIT_FILE, ram);
+    end
+
+    // Logic doc va ghi dong bo theo xung nhip
+    always @(posedge clk) begin
+        // Ghi theo byte dua tren tin hieu we (write enable)
+        if (we[0]) ram[addr][7:0]   <= din[7:0];
+        if (we[1]) ram[addr][15:8]  <= din[15:8];
+        if (we[2]) ram[addr][23:16] <= din[23:16];
+        if (we[3]) ram[addr][31:24] <= din[31:24];
+        
+        // Luon cap nhat du lieu doc ra tai dia chi hien tai
+        dout <= ram[addr];
+    end
+
+    // RAM don cong don gian luon san sang sau 1 chu ky
+    assign ready = 1'b1; 
+endmodule

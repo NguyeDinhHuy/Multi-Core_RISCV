@@ -1,0 +1,252 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1
+vdual_core
+!i10b 1
+Z1 !s100 In@YmlKLa^UC@aaXh=H=K3
+Z2 I8c2jzT3jlMLzz3ffNMei50
+Z3 V<bee8?_KhPaEFdmZl4bj01
+Z4 dC:\Do_An_1\PicoRV32
+Z5 w1778893677
+Z6 8C:/Do_An_1/PicoRV32/dual_core.v
+Z7 FC:/Do_An_1/PicoRV32/dual_core.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1778907116.515000
+!s107 C:/Do_An_1/PicoRV32/dual_core.v|
+Z9 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/dual_core.v|
+!s101 -O0
+Z10 o-work work -O0
+vdual_port_ram
+Z11 I;`kGX:n102V13[B7I?6MX0
+Z12 VY_BFG75Ee]5kCj<WRL4AF0
+R4
+Z13 w1778838369
+Z14 8C:/Do_An_1/PicoRV32/dual_port_ram.v
+Z15 FC:/Do_An_1/PicoRV32/dual_port_ram.v
+L0 1
+R8
+r1
+31
+R10
+Z16 !s100 C9hgGdC?8?96h50F=08MH2
+Z17 !s108 1778838514.254000
+Z18 !s107 C:/Do_An_1/PicoRV32/dual_port_ram.v|
+Z19 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/dual_port_ram.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpicorv32
+Z20 !s100 46<l5g@D>L?KPz=FTSdd30
+Z21 Ik@X`JhC<1mJLE5M[Co_C_2
+Z22 V5d4Kz5eDLh6[Rhe1lSHY=1
+R4
+Z23 w1778756686
+Z24 8C:/Do_An_1/PicoRV32/picorv32.v
+Z25 FC:/Do_An_1/PicoRV32/picorv32.v
+L0 62
+R8
+r1
+31
+Z26 !s108 1778907116.124000
+Z27 !s107 C:/Do_An_1/PicoRV32/picorv32.v|
+Z28 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/picorv32.v|
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vpicorv32_arbiter
+Z29 !s100 YlM`^nQURTGRaPYmkcaUA1
+Z30 ITbBOXZX>[<ZW8D5F3UR@>0
+Z31 VEdiz?T?n?CeHSP>H<RZOm2
+R4
+Z32 w1778842325
+Z33 8C:/Do_An_1/PicoRV32/picorv32_arbiter.v
+Z34 FC:/Do_An_1/PicoRV32/picorv32_arbiter.v
+L0 1
+R8
+r1
+31
+Z35 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/picorv32_arbiter.v|
+R10
+Z36 !s108 1778907116.330000
+Z37 !s107 C:/Do_An_1/PicoRV32/picorv32_arbiter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vpicorv32_axi
+Z38 !s100 3hz@BCAQ:jSLoE7nd5Wbn3
+Z39 I>9Oj]LlcCbDQkeCL8878d3
+Z40 V]e6lc_e6KEMIjaMb1I_i>1
+R4
+R23
+R24
+R25
+Z41 L0 2517
+R8
+r1
+31
+R26
+R27
+R28
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vpicorv32_axi_adapter
+Z42 !s100 CnUi<e?M46CAcoi?bQ^:j1
+Z43 ISk[hSQM;^h]5j_0RhD?AK3
+Z44 V2]nAeUmS44<ZC0^nc;M:j2
+R4
+R23
+R24
+R25
+Z45 L0 2731
+R8
+r1
+31
+R26
+R27
+R28
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vpicorv32_pcpi_div
+Z46 !s100 H1bj_Deag6khc9V6nV16L3
+Z47 IfGZdeZ`NBO=;J=<[3YjTh2
+Z48 VL7bUXRXJk4ENl@V=S5H<`0
+R4
+R23
+R24
+R25
+Z49 L0 2420
+R8
+r1
+31
+R26
+R27
+R28
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vpicorv32_pcpi_fast_mul
+Z50 !s100 6bEM8VWTVQ?7aKlmL:0C?1
+Z51 ILd>H<V9T4KOTJ39Zb=TB^3
+Z52 VW?khI_oo^>DWDYQF:lMON0
+R4
+R23
+R24
+R25
+Z53 L0 2318
+R8
+r1
+31
+R26
+R27
+R28
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vpicorv32_pcpi_mul
+Z54 !s100 l5eP@g4>zMSiTQYSj48Vn3
+Z55 I]EKk3LaZzB6i;gSjlGi?P1
+Z56 VLzcEUchHZfkkCM4`5H8Dg3
+R4
+R23
+R24
+R25
+Z57 L0 2197
+R8
+r1
+31
+R26
+R27
+R28
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vpicorv32_regs
+Z58 !s100 o^VkmO6DG0X>1CHKhNIHV3
+Z59 I;oRGD1Qd@5@KZSIhlBn^O1
+Z60 VzRanWF5Y`>ghlHfGT@MXk0
+R4
+R23
+R24
+R25
+Z61 L0 2174
+R8
+r1
+31
+R26
+R27
+R28
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vpicorv32_wb
+Z62 !s100 ?e8MB;b6QG3KZl5TcF5822
+Z63 I[dfXWSZ2md74nRf;HfjCO2
+Z64 V36KG9?DgnDf`<<nGDZCH`3
+R4
+R23
+R24
+R25
+Z65 L0 2815
+R8
+r1
+31
+R26
+R27
+R28
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vsingle_port_ram
+Z66 IAolObBFf11c4cOdM4<?aJ2
+Z67 Vjz<=GM_GEhiDl57oeAj;C2
+R4
+Z68 w1778899737
+Z69 8C:/Do_An_1/PicoRV32/singal_port_ram.v
+Z70 FC:/Do_An_1/PicoRV32/singal_port_ram.v
+L0 1
+R8
+r1
+31
+R10
+Z71 !s100 8Z:?OQHNDZ3CUA=VNMILW2
+Z72 !s108 1778907116.409000
+Z73 !s107 C:/Do_An_1/PicoRV32/singal_port_ram.v|
+Z74 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/singal_port_ram.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_arbiter
+Z75 IRCELM2C`jR3IWiFHiVcLN3
+Z76 VzBMmhkeKnjLdLgoEJJH;C1
+R4
+Z77 w1778907108
+Z78 8C:/Do_An_1/PicoRV32/tb_arbiter.v
+Z79 FC:/Do_An_1/PicoRV32/tb_arbiter.v
+L0 3
+R8
+r1
+31
+Z80 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/tb_arbiter.v|
+R10
+!i10b 1
+Z81 !s100 5Wh3ejVZkgiG]eFL8>>g:1
+!s85 0
+Z82 !s108 1778907116.458000
+Z83 !s107 C:/Do_An_1/PicoRV32/tb_arbiter.v|
+!s101 -O0
