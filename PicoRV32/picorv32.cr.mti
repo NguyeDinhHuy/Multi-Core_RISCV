@@ -1,4 +1,11 @@
-C:/Do_An_1/PicoRV32/dual_port_ram.v {1 {vlog -work work C:/Do_An_1/PicoRV32/dual_port_ram.v
+C:/Do_An_1/PicoRV32/tb_pure_arbiter.v {1 {vlog -work work C:/Do_An_1/PicoRV32/tb_pure_arbiter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_pure_arbiter
+
+Top level modules:
+	tb_pure_arbiter
+
+} {} {}} C:/Do_An_1/PicoRV32/dual_port_ram.v {1 {vlog -work work C:/Do_An_1/PicoRV32/dual_port_ram.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module single_port_ram
 
@@ -11,6 +18,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	single_port_ram
+
+} {} {}} C:/Do_An_1/PicoRV32/tb_arbiter.v {1 {vlog -work work C:/Do_An_1/PicoRV32/tb_arbiter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_arbiter
+
+Top level modules:
+	tb_arbiter
 
 } {} {}} C:/Do_An_1/PicoRV32/dual_core.v {1 {vlog -work work C:/Do_An_1/PicoRV32/dual_core.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -34,12 +48,5 @@ Top level modules:
 	picorv32_regs
 	picorv32_axi
 	picorv32_wb
-
-} {} {}} C:/Do_An_1/PicoRV32/picorv32_arbiter.v {1 {vlog -work work C:/Do_An_1/PicoRV32/picorv32_arbiter.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module picorv32_arbiter
-
-Top level modules:
-	picorv32_arbiter
 
 } {} {}}
