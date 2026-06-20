@@ -4,268 +4,249 @@ K3
 cModel Technology
 Z0 dC:\altera\13.0sp1
 vdual_core
-Z1 !s100 In@YmlKLa^UC@aaXh=H=K3
-Z2 I8c2jzT3jlMLzz3ffNMei50
-Z3 V<bee8?_KhPaEFdmZl4bj01
-Z4 dC:\Do_An_1\PicoRV32
-Z5 w1778893677
-Z6 8C:/Do_An_1/PicoRV32/dual_core.v
-Z7 FC:/Do_An_1/PicoRV32/dual_core.v
+Z1 I8c2jzT3jlMLzz3ffNMei50
+Z2 V<bee8?_KhPaEFdmZl4bj01
+Z3 dC:\Do_An_1\PicoRV32
+Z4 w1781323174
+Z5 8C:/Do_An_1/PicoRV32/dual_core.v
+Z6 FC:/Do_An_1/PicoRV32/dual_core.v
 L0 1
-Z8 OV;L;10.1d;51
+Z7 OV;L;10.1d;51
 r1
 31
-Z9 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/dual_core.v|
-Z10 o-work work -O0
-!i10b 1
-!s85 0
-Z11 !s108 1779038041.959000
-Z12 !s107 C:/Do_An_1/PicoRV32/dual_core.v|
-!s101 -O0
-vdual_port_ram
-Z13 I;`kGX:n102V13[B7I?6MX0
-Z14 VY_BFG75Ee]5kCj<WRL4AF0
-R4
-Z15 w1778838369
-Z16 8C:/Do_An_1/PicoRV32/dual_port_ram.v
-Z17 FC:/Do_An_1/PicoRV32/dual_port_ram.v
-L0 1
-R8
-r1
-31
-R10
-Z18 !s100 C9hgGdC?8?96h50F=08MH2
-Z19 !s108 1778838514.254000
-Z20 !s107 C:/Do_An_1/PicoRV32/dual_port_ram.v|
-Z21 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/dual_port_ram.v|
+Z8 o-work work -O0
+Z9 !s100 In@YmlKLa^UC@aaXh=H=K3
+Z10 !s108 1781535009.455000
+Z11 !s107 C:/Do_An_1/PicoRV32/dual_core.v|
+Z12 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/dual_core.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vpicorv32
-Z22 !s100 46<l5g@D>L?KPz=FTSdd30
-Z23 Ik@X`JhC<1mJLE5M[Co_C_2
-Z24 V5d4Kz5eDLh6[Rhe1lSHY=1
-R4
-Z25 w1778756686
-Z26 8C:/Do_An_1/PicoRV32/picorv32.v
-Z27 FC:/Do_An_1/PicoRV32/picorv32.v
+Z13 Ik@X`JhC<1mJLE5M[Co_C_2
+Z14 V5d4Kz5eDLh6[Rhe1lSHY=1
+R3
+Z15 w1781441539
+Z16 8C:/Do_An_1/PicoRV32/picorv32.v
+Z17 FC:/Do_An_1/PicoRV32/picorv32.v
 L0 62
-R8
+R7
 r1
 31
-Z28 !s108 1779038041.422000
-Z29 !s107 C:/Do_An_1/PicoRV32/picorv32.v|
-Z30 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/picorv32.v|
-R10
+Z18 !s108 1781535009.509000
+Z19 !s107 C:/Do_An_1/PicoRV32/picorv32.v|
+Z20 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/picorv32.v|
+R8
+Z21 !s100 46<l5g@D>L?KPz=FTSdd30
 !i10b 1
 !s85 0
 !s101 -O0
 vpicorv32_arbiter
-Z31 !s100 YlM`^nQURTGRaPYmkcaUA1
-Z32 ITbBOXZX>[<ZW8D5F3UR@>0
-Z33 VEdiz?T?n?CeHSP>H<RZOm2
-R4
-Z34 w1779038032
-Z35 8C:/Do_An_1/PicoRV32/picorv32_arbiter.v
-Z36 FC:/Do_An_1/PicoRV32/picorv32_arbiter.v
+Z22 ITbBOXZX>[<ZW8D5F3UR@>0
+Z23 VEdiz?T?n?CeHSP>H<RZOm2
+R3
+Z24 w1779038032
+Z25 8C:/Do_An_1/PicoRV32/picorv32_arbiter.v
+Z26 FC:/Do_An_1/PicoRV32/picorv32_arbiter.v
 L0 1
-R8
+R7
 r1
 31
-Z37 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/picorv32_arbiter.v|
-R10
-Z38 !s108 1779038041.732000
-Z39 !s107 C:/Do_An_1/PicoRV32/picorv32_arbiter.v|
+R8
+Z27 !s100 YlM`^nQURTGRaPYmkcaUA1
+Z28 !s108 1781535009.634000
+Z29 !s107 C:/Do_An_1/PicoRV32/picorv32_arbiter.v|
+Z30 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/picorv32_arbiter.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vpicorv32_axi
-Z40 !s100 3hz@BCAQ:jSLoE7nd5Wbn3
-Z41 I>9Oj]LlcCbDQkeCL8878d3
-Z42 V]e6lc_e6KEMIjaMb1I_i>1
-R4
-R25
-R26
-R27
-Z43 L0 2517
-R8
+Z31 I>9Oj]LlcCbDQkeCL8878d3
+Z32 V]e6lc_e6KEMIjaMb1I_i>1
+R3
+R15
+R16
+R17
+Z33 L0 2517
+R7
 r1
 31
-R28
-R29
-R30
-R10
+R18
+R19
+R20
+R8
+Z34 !s100 3hz@BCAQ:jSLoE7nd5Wbn3
 !i10b 1
 !s85 0
 !s101 -O0
 vpicorv32_axi_adapter
-Z44 !s100 CnUi<e?M46CAcoi?bQ^:j1
-Z45 ISk[hSQM;^h]5j_0RhD?AK3
-Z46 V2]nAeUmS44<ZC0^nc;M:j2
-R4
-R25
-R26
-R27
-Z47 L0 2731
-R8
+Z35 ISk[hSQM;^h]5j_0RhD?AK3
+Z36 V2]nAeUmS44<ZC0^nc;M:j2
+R3
+R15
+R16
+R17
+Z37 L0 2731
+R7
 r1
 31
-R28
-R29
-R30
-R10
+R18
+R19
+R20
+R8
+Z38 !s100 CnUi<e?M46CAcoi?bQ^:j1
 !i10b 1
 !s85 0
 !s101 -O0
 vpicorv32_pcpi_div
-Z48 !s100 H1bj_Deag6khc9V6nV16L3
-Z49 IfGZdeZ`NBO=;J=<[3YjTh2
-Z50 VL7bUXRXJk4ENl@V=S5H<`0
-R4
-R25
-R26
-R27
-Z51 L0 2420
-R8
+Z39 IfGZdeZ`NBO=;J=<[3YjTh2
+Z40 VL7bUXRXJk4ENl@V=S5H<`0
+R3
+R15
+R16
+R17
+Z41 L0 2420
+R7
 r1
 31
-R28
-R29
-R30
-R10
+R18
+R19
+R20
+R8
+Z42 !s100 H1bj_Deag6khc9V6nV16L3
 !i10b 1
 !s85 0
 !s101 -O0
 vpicorv32_pcpi_fast_mul
-Z52 !s100 6bEM8VWTVQ?7aKlmL:0C?1
-Z53 ILd>H<V9T4KOTJ39Zb=TB^3
-Z54 VW?khI_oo^>DWDYQF:lMON0
-R4
-R25
-R26
-R27
-Z55 L0 2318
-R8
+Z43 ILd>H<V9T4KOTJ39Zb=TB^3
+Z44 VW?khI_oo^>DWDYQF:lMON0
+R3
+R15
+R16
+R17
+Z45 L0 2318
+R7
 r1
 31
-R28
-R29
-R30
-R10
+R18
+R19
+R20
+R8
+Z46 !s100 6bEM8VWTVQ?7aKlmL:0C?1
 !i10b 1
 !s85 0
 !s101 -O0
 vpicorv32_pcpi_mul
-Z56 !s100 l5eP@g4>zMSiTQYSj48Vn3
-Z57 I]EKk3LaZzB6i;gSjlGi?P1
-Z58 VLzcEUchHZfkkCM4`5H8Dg3
-R4
-R25
-R26
-R27
-Z59 L0 2197
-R8
+Z47 I]EKk3LaZzB6i;gSjlGi?P1
+Z48 VLzcEUchHZfkkCM4`5H8Dg3
+R3
+R15
+R16
+R17
+Z49 L0 2197
+R7
 r1
 31
-R28
-R29
-R30
-R10
+R18
+R19
+R20
+R8
+Z50 !s100 l5eP@g4>zMSiTQYSj48Vn3
 !i10b 1
 !s85 0
 !s101 -O0
 vpicorv32_regs
-Z60 !s100 o^VkmO6DG0X>1CHKhNIHV3
-Z61 I;oRGD1Qd@5@KZSIhlBn^O1
-Z62 VzRanWF5Y`>ghlHfGT@MXk0
-R4
-R25
-R26
-R27
-Z63 L0 2174
-R8
+Z51 I;oRGD1Qd@5@KZSIhlBn^O1
+Z52 VzRanWF5Y`>ghlHfGT@MXk0
+R3
+R15
+R16
+R17
+Z53 L0 2174
+R7
 r1
 31
-R28
-R29
-R30
-R10
+R18
+R19
+R20
+R8
+Z54 !s100 o^VkmO6DG0X>1CHKhNIHV3
 !i10b 1
 !s85 0
 !s101 -O0
 vpicorv32_wb
-Z64 !s100 ?e8MB;b6QG3KZl5TcF5822
-Z65 I[dfXWSZ2md74nRf;HfjCO2
-Z66 V36KG9?DgnDf`<<nGDZCH`3
-R4
-R25
-R26
-R27
-Z67 L0 2815
-R8
+Z55 I[dfXWSZ2md74nRf;HfjCO2
+Z56 V36KG9?DgnDf`<<nGDZCH`3
+R3
+R15
+R16
+R17
+Z57 L0 2815
+R7
 r1
 31
-R28
-R29
-R30
-R10
+R18
+R19
+R20
+R8
+Z58 !s100 ?e8MB;b6QG3KZl5TcF5822
 !i10b 1
 !s85 0
 !s101 -O0
 vsingle_port_ram
-Z68 IAolObBFf11c4cOdM4<?aJ2
-Z69 Vjz<=GM_GEhiDl57oeAj;C2
-R4
-Z70 w1778899737
-Z71 8C:/Do_An_1/PicoRV32/singal_port_ram.v
-Z72 FC:/Do_An_1/PicoRV32/singal_port_ram.v
+Z59 I@8YJK=nfcmI3[GF`5hCNi2
+Z60 Vjz<=GM_GEhiDl57oeAj;C2
+R3
+Z61 w1778899737
+Z62 8C:/Do_An_1/PicoRV32/singnal_port_ram.v
+Z63 FC:/Do_An_1/PicoRV32/singnal_port_ram.v
 L0 1
-R8
+R7
 r1
 31
-R10
-Z73 !s100 8Z:?OQHNDZ3CUA=VNMILW2
-Z74 !s108 1779038041.784000
-Z75 !s107 C:/Do_An_1/PicoRV32/singal_port_ram.v|
-Z76 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/singal_port_ram.v|
+R8
+Z64 !s100 VB:j^nH?1BcAJ]gSlll271
+Z65 !s108 1781535009.675000
+Z66 !s107 C:/Do_An_1/PicoRV32/singnal_port_ram.v|
+Z67 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/singnal_port_ram.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vtb_arbiter
-Z77 !s100 5Wh3ejVZkgiG]eFL8>>g:1
-Z78 IRCELM2C`jR3IWiFHiVcLN3
-Z79 VzBMmhkeKnjLdLgoEJJH;C1
-R4
-Z80 w1778907108
-Z81 8C:/Do_An_1/PicoRV32/tb_arbiter.v
-Z82 FC:/Do_An_1/PicoRV32/tb_arbiter.v
+Z68 IRCELM2C`jR3IWiFHiVcLN3
+Z69 VzBMmhkeKnjLdLgoEJJH;C1
+R3
+Z70 w1778907108
+Z71 8C:/Do_An_1/PicoRV32/tb_arbiter.v
+Z72 FC:/Do_An_1/PicoRV32/tb_arbiter.v
 L0 3
-R8
+R7
 r1
 31
-Z83 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/tb_arbiter.v|
-R10
-Z84 !s108 1779038041.865000
-Z85 !s107 C:/Do_An_1/PicoRV32/tb_arbiter.v|
+R8
 !i10b 1
+Z73 !s100 5Wh3ejVZkgiG]eFL8>>g:1
 !s85 0
+Z74 !s108 1781535009.721000
+Z75 !s107 C:/Do_An_1/PicoRV32/tb_arbiter.v|
+Z76 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/tb_arbiter.v|
 !s101 -O0
 vtb_pure_arbiter
 !i10b 1
-Z86 !s100 KQkQ6DNYdPQ4YgA4?aNDG1
-Z87 ITgPPlKBjPdT7UFlZ]aagH1
-Z88 VjUc^m3fmE_loZO2;;FmN]3
-R4
-Z89 w1778929651
-Z90 8C:/Do_An_1/PicoRV32/tb_pure_arbiter.v
-Z91 FC:/Do_An_1/PicoRV32/tb_pure_arbiter.v
+!s100 KQkQ6DNYdPQ4YgA4?aNDG1
+ITgPPlKBjPdT7UFlZ]aagH1
+VjUc^m3fmE_loZO2;;FmN]3
+R3
+w1778929651
+8C:/Do_An_1/PicoRV32/tb_pure_arbiter.v
+FC:/Do_An_1/PicoRV32/tb_pure_arbiter.v
 L0 3
-R8
+R7
 r1
 !s85 0
 31
-!s108 1779038042.047000
+!s108 1781535009.765000
 !s107 C:/Do_An_1/PicoRV32/tb_pure_arbiter.v|
-Z92 !s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/tb_pure_arbiter.v|
+!s90 -reportprogress|300|-work|work|C:/Do_An_1/PicoRV32/tb_pure_arbiter.v|
 !s101 -O0
-R10
+R8

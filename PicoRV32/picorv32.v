@@ -1554,7 +1554,7 @@ module picorv32 #(
 					end else
 						do_waitirq <= 1;
 				end else
-				if (decoder_trigger) begin
+				if (decoder_trigger) begin 
 					`debug($display("-- %-0t", $time);)
 					irq_delay <= irq_active;
 					reg_next_pc <= current_pc + (compressed_instr ? 2 : 4);

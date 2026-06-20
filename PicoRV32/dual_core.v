@@ -4,7 +4,7 @@ module dual_core (
     output trap_0,
     output trap_1
 );
-    // Luu y comment tieng Viet khong dau trong code
+    
     // Khai bao cac duong day tin hieu noi bo
     wire v0, r0, i0;
     wire [31:0] a0, d0;
